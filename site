@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Primul meu site</title>
+</head>
+<body>
+    <h1>Bun venit pe site-ul meu!</h1>
+    <p>Aici voi construi ceva grozav.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghidul meu despre Linux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 40px;
+        }
+        h1 {
+            color: #00ff66;
+        }
+        h2 {
+            color: #00bcd4;
+        }
+        code {
+            background-color: #1e1e1e;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #ffcc00;
+        }
+        .box {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Totul despre Linux</h1>
+    <p>Bine ai venit pe site-ul meu dedicat sistemului de operare Linux și universului open-source!</p>
+
+    <div class="box">
+        <h2>Ce este Linux?</h2>
+        <p>Linux este un sistem de operare open-source puternic și stabil, folosit pe majoritatea serverelor din lume, pe supercomputere și pe dispozitive embedded.</p>
+    </div>
+
+    <div class="box">
+        <h2>Comenzi esențiale în Terminal</h2>
+        <p>Dacă vrei să lucrezi în Linux, trebuie să știi câteva comenzi de bază:</p>
+        <ul>
+            <li><code>ls</code> - Afișează fișierele din folderul curent.</li>
+            <li><code>pwd</code> - Arată calea folderului în care te afli.</li>
+            <li><code>sudo apt update</code> - Actualizează lista de pachete ale sistemului.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Universul Linux - Totul despre Open Source</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #161b22;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3fb950;
+            border-bottom: 2px solid #21262d;
+            padding-bottom: 8px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #161b22;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .tux-img {
+            max-width: 200px;
+            display: block;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+        code {
+            background-color: #21262d;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #79c0ff;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🐧 Universul Linux</h1>
+        <p>Ghidul tău complet despre istorie, mascota Tux, distribuții celebre și sistemul open-source.</p>
+    </header>
+
+    <div class="card">
+        <h2>Cine a inventat Linux? (Linus Torvalds)</h2>
+        <p>Linux a pornit în 1991 ca un proiect de facultate al lui <strong>Linus Torvalds</strong> în Finlanda. El a dorit să creeze un sistem de operare gratuit, asemănător cu Unix, pe care l-a lansat sub licență open-source. Astăzi, kernelul (inima) Linux alimentează majoritatea serverelor din lume, telefoanele Android, supercomputerele și dispozitivele IoT.</p>
+    </div>
+
+    <div class="card">
+        <h2>Cine este Tux, mascota Linux?</h2>
+        <p><strong>Tux</strong> este celebrul pinguin care a devenit mascota oficială a kernelului Linux. A fost creat în 1996 în urma unui concurs. Legenda spune că Linus Torvalds a menționat că are o slăbiciune pentru pinguini după ce a fost ciugulit de un pinguin pitic la o grădină zoologică, așa că pinguinul a devenit simbolul suprem al Linux-ului.</p>
+        
+        <!-- Imaginea cu Tux preluată -->
+        <img src="http://googleusercontent.com/image_collection/image_retrieval/8610297075392589199" alt="Tux Pinguinul Linux" class="tux-img">
+    </div>
+
+    <div class="card">
+        <h2>Ce sunt Distribuțiile Linux (Distrouri)?</h2>
+        <p>Spre deosebire de Windows sau macOS, Linux nu este doar un singur sistem de operare, ci un <em>kernel</em>. Companiile, comunitățile sau dezvoltatorii independenți ia acest kernel și adaugă programe, interfețe grafice și manageri de pachete, creând propriile versiuni numite <strong>distribuții (distros)</strong>.</p>
+    </div>
+
+    <div class="card">
+        <h2>Distribuții speciale pe care să le știi:</h2>
+        <ul>
+            <li>
+                <strong>Kali Linux (pe care îl folosești și tu!):</strong> O distribuție bazată pe Debian, special concepută pentru <em>securitate cibernetică, teste de penetrare și audituri de securitate</em>. Vine preinstalată cu sute de unelte de hacking etic.
+            </li>
+            <li>
+                <strong>Arch Linux:</strong> O distribuție independentă, extrem de rapidă și minimalistă, construită pe filozofia "do-it-yourself". Nu vine cu nimic în plus față de strictul necesar, utilizatorul construindu-și sistemul exact cum își dorește de la zero (folosind celebrul manager de pachete <code>pacman</code>).
+            </li>
+            <li>
+                <strong>LFS (Linux From Scratch):</strong> Nu este o distribuție propriu-zisă pe care o instalezi gata făcută, ci o carte/un ghid detaliat care te învață <em>cum să îți compilezi propriul sistem Linux din codul sursă</em>, linie cu linie. Este cel mai bun mod de a înțelege exact cum funcționează fiecare componentă a Linux-ului la nivel profund!
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Universul Linux - Totul despre Open Source</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #161b22;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3fb950;
+            border-bottom: 2px solid #21262d;
+            padding-bottom: 8px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #161b22;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .site-img {
+            max-width: 180px;
+            display: block;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+        code {
+            background-color: #21262d;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #79c0ff;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 12px;
+        }
+        .logo-mini {
+            width: 40px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🐧 Universul Linux</h1>
+        <p>Ghidul tău complet despre istorie, mascota Tux, distribuții celebre și sistemul open-source.</p>
+    </header>
+
+    <div class="card">
+        <h2>Cine a inventat Linux? (Linus Torvalds)</h2>
+        <p>Linux a pornit în 1991 ca un proiect de facultate al lui <strong>Linus Torvalds</strong> în Finlanda. El a dorit să creeze un sistem de operare gratuit, asemănător cu Unix, pe care l-a lansat sub licență open-source. Astăzi, kernelul Linux alimentează majoritatea serverelor din lume, telefoanele Android și supercomputerele.</p>
+        
+        <!-- Poză Linus Torvalds -->
+        <img src="http://googleusercontent.com/image_collection/image_retrieval/11207137026510146988_0" alt="Linus Torvalds" class="site-img">
+    </div>
+
+    <div class="card">
+        <h2>Cine este Tux, mascota Linux?</h2>
+        <p><strong>Tux</strong> este celebrul pinguin care a devenit mascota oficială a kernelului Linux. A fost creat în 1996 în urma unui concurs. Legenda spune că Linus Torvalds a menționat că are o slăbiciune pentru pinguini după ce a fost ciugulit de un pinguin pitic la o grădină zoologică.</p>
+        
+        <!-- Poză Tux -->
+        <img src="http://googleusercontent.com/image_collection/image_retrieval/8610297075392589199_0" alt="Tux Pinguinul Linux" class="site-img">
+    </div>
+
+    <div class="card">
+        <h2>Ce sunt Distribuțiile Linux (Distrouri)?</h2>
+        <p>Spre deosebire de Windows sau macOS, Linux nu este doar un singur sistem de operare, ci un <em>kernel</em>. Dezvoltatorii iau acest kernel și adaugă programe și interfețe grafice, creând propriile versiuni numite <strong>distribuții (distros)</strong>.</p>
+    </div>
+
+    <div class="card">
+        <h2>Distribuții speciale pe care să le știi:</h2>
+        <ul>
+            <li>
+                <strong>Kali Linux:</strong> O distribuție bazată pe Debian, special concepută pentru <em>securitate cibernetică și teste de penetrare</em>. Vine preinstalată cu sute de unelte de hacking etic.<br>
+                <img src="http://googleusercontent.com/image_collection/image_retrieval/3578308238836749945_0" alt="Kali Linux Logo" class="site-img" style="max-width: 100px;">
+            </li>
+            <li>
+                <strong>Arch Linux:</strong> O distribuție independentă, extrem de rapidă și minimalistă, construită pe filozofia "do-it-yourself". Nu vine cu nimic în plus față de strictul necesar, utilizatorul construindu-și sistemul de la zero folosind managerul de pachete <code>pacman</code>.<br>
+                <img src="http://googleusercontent.com/image_collection/image_retrieval/11373002523759874159_0" alt="Arch Linux Logo" class="site-img" style="max-width: 80px;">
+            </li>
+            <li>
+                <strong>LFS (Linux From Scratch):</strong> Un ghid detaliat care te învață <em>cum să îți compilezi propriul sistem Linux din codul sursă</em>, linie cu linie. Este cel mai bun mod de a înțelege cum funcționează fiecare componentă la nivel profund!
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
